@@ -106,7 +106,7 @@ import { ref } from 'vue';
 // definicion del componente
 defineOptions({
   // nombre del componente
-  name: 'TablaPersonas',
+  name: 'tabla-personas',
 });
 
 // declaramos y damos valor por defecto para la propiedad personas

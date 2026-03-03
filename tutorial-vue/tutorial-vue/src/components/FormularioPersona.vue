@@ -100,7 +100,7 @@ import { ref, computed, onMounted } from 'vue';
 // definicion del componente
 defineOptions({
   // nombre del componente
-  name: 'FormularioPersona',
+  name: 'formulario-persona',
 });
 
 // Declaracion de una variable reactiva "persona" con propiedades nombre, apellido y email
