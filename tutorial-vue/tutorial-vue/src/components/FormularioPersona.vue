@@ -52,13 +52,18 @@
             </div>
           </div>
         </div>
-        <br />
+        <br>
         <!-- Segunda fila con un boton para agregar persona -->
         <div class="row">
           <div class="col-md-4">
             <div class="form-group">
               <!-- Boton para agnadir persona -->
-              <button class="btn btn-primary" data-cy="add-button">Añadir persona</button>
+              <button
+                class="btn btn-primary"
+                data-cy="add-button"
+              >
+                Añadir persona
+              </button>
             </div>
           </div>
         </div>
@@ -95,7 +100,7 @@ import { ref, computed, onMounted } from 'vue';
 // definicion del componente
 defineOptions({
   // nombre del componente
-  name: 'formulario-persona',
+  name: 'FormularioPersona',
 });
 
 // Declaracion de una variable reactiva "persona" con propiedades nombre, apellido y email

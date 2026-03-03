@@ -1,8 +1,13 @@
 <!-- App.vue -->
 <template>
-  <div id="app" class="container">
+  <div
+    id="app"
+    class="container"
+  >
     <div class="row">
-      <div class="col-md-12"><h1>Personas</h1></div>
+      <div class="col-md-12">
+        <h1>Personas</h1>
+      </div>
     </div>
     <div class="row">
       <div class="col-md-12">
