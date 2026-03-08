@@ -53,4 +53,3 @@ def test_persona_crud_remote(timeout):
     assert r.status_code in (204, 200), f"Delete failed: {r.status_code} {r.text}"
     r = requests.get(detail_url, timeout=timeout)
     assert r.status_code in (404, 410), f"Expected not found after delete, got {r.status_code}"
-

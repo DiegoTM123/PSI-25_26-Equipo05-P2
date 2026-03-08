@@ -6,6 +6,7 @@
       v-if="!personas.length"
       class="alert alert-info"
       role="alert"
+      data-cy="no-persona"
     >
       No se han encontrado personas
     </div>
